@@ -80,7 +80,32 @@
             </div>
         </main>
         <footer class="footer">
-            
+                <form id="employer" method='post' action="https://jsonplaceholder.typicode.com/posts" target="_blank"
+                    enctype="application/x-www-form-urlencoded" autocomplete="on" translate="no">
+                    <fieldset>
+                        <legend><h2>Contact with me</h2></legend>
+                        <div class="for-wrapper">
+                            <div>
+                                <label for="name">Name</label>
+                                <input id='name' name="name" type="text" required>
+                            </div>
+                            <div>
+                                <label for="email">Email @</label>
+                                <input id='email' name="email" type="email" required>
+                            </div>
+                            <div>
+                                <label for="phone">Phone number</label>
+                                <input id='phone' name="phone" type="tel" required>
+                            </div>
+                            <div>
+                                <div class="text-label"><label for="area">Massege</label></div>
+                                <textarea id="area" name="textarea" cols="50" rows="7" placeholder="Write your messege..."
+                                    spellcheck="true"></textarea>
+                            </div>
+                            <button type="submit">Submit form</button>
+                        </div>
+                    </fieldset>
+                </form>
         </footer>
     </body>
 
