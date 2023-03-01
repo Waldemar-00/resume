@@ -71,6 +71,9 @@ h2 {
     height: 50px;
     margin-bottom: -9px;
 }
+.soft-skills li img {
+    opacity: 0.7;
+}
 /* .skills li span { */
     /* font-weight: 600; */
     /* color: rgb(48, 48, 48); */
