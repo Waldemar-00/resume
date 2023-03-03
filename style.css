@@ -205,9 +205,6 @@ form button:active {
     fieldset {
         border: none;
     }
-    legend {
-        width: 300px;
-    }
     .anchor img {
         width: 40px;
         height: 40px;
@@ -224,4 +221,7 @@ form button:active {
     form {
         margin: 0;
     }
+    legend {
+    width: 300px;
+}
 }
