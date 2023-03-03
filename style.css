@@ -206,7 +206,7 @@ form button:active {
         border: none;
     }
     legend {
-        font-size: 1.2rem;
+        width: 300px;
     }
     .anchor img {
         width: 40px;
